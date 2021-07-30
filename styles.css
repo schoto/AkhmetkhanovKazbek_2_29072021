@@ -1,4 +1,16 @@
-/* header */
-header{
-
+/* HEADER */
+.menu {
+    display: flex;                              /* flexbox */
+    padding:0;                  
+    background-color: rgb(255, 255, 255);     /* adding background color */
+    justify-content:center;                     /* links align in menu */
+}
+.menu li {
+    list-style-type: none ;                     /* removing points*/
+}
+.menu a {
+    display:block;
+    margin: 0.5rem;
+    color: rgb(97, 95, 192);                  /* text color */
+    text-decoration: none;                      /* removing links underline */
 }
