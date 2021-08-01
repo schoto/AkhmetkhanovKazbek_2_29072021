@@ -1,16 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"); /* font imported from google fonts*/
 /* HEADER */
 .menu {
-    display: flex;                              /* flexbox */
-    padding:0;                  
-    background-color: rgb(255, 255, 255);     /* adding background color */
-    justify-content:center;                     /* links align in menu */
+  display: flex; /* flexbox */
+  background-color: #ffffff; /* adding background color */
+  justify-content: flex-end;
+  float: right;
 }
 .menu li {
-    list-style-type: none ;                     /* removing points*/
+  list-style-type: none; /* removing points*/
+  font-family: "Raleway", sans-serif; /* font from google + sans-serif */
 }
 .menu a {
-    display:block;
-    margin: 0.5rem;
-    color: rgb(97, 95, 192);                  /* text color */
-    text-decoration: none;                      /* removing links underline */
+  display: flex;
+  margin: 1.5rem; /*space between elements*/
+  text-decoration: none; /* removing links underline */
+  color: #0065fc; /* color of text */
+  font-weight: bold;
+}
+header img {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+a:hover {
+  background-color: rgb(173, 173, 173);
+}
+.trouvez_votre_hebergement h3,
+h5 {
+  margin-left: 20px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+.barre_recherche {
+  margin-left: 20px;
+}
+.image_pin{
+    background-color: lightgrey;
+}
+i{
+    font-size: 20px; /* we can change the icon size with css*/
 }
