@@ -33,9 +33,20 @@ h5 {
 .barre_recherche {
   margin-left: 20px;
 }
-.image_pin{
-    background-color: lightgrey;
+.image_pin {
+  color: #000000;
+  background: #dddddd;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
 }
-i{
-    font-size: 20px; /* we can change the icon size with css*/
+i {
+  font-size: 20px; /* we can change the icon size with css*/
+}
+#ville{
+width: 8%;
 }
