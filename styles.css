@@ -22,7 +22,8 @@ header img {
   margin-top: 20px;
 }
 a:hover {
-  background-color: rgb(173, 173, 173);
+    border-top: 3px solid #0065fc;
+    padding-top: 20px;
 }
 .trouvez_votre_hebergement h3,
 h5 {
