@@ -102,6 +102,14 @@ i {
   width: 800px;
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
+  float: left;
+}
+.hebergements_marseille {
+  margin-left: 3%;
+  margin-top: 3%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #000000;
 }
 .rectangle_container {
   display: flex;
@@ -110,5 +118,23 @@ i {
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
   float: right;
+  margin-right: 20px;
+}
+.les_plus_populaires {
+  margin-left: 3%;
+  margin-top: 3%;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #000000;
+}
+.text_activites_marseille {
+  margin-left: 20px;
+}
+.activites_marseille{
+  display: flex;
+  height: 300px;
+  width: 80%;
+  background-color: #e6e6e6e7;
+  border-radius: 20px 20px 20px 20px;
   margin-right: 20px;
 }
