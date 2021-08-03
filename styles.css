@@ -25,11 +25,10 @@ a:hover {
     border-top: 3px solid #0065fc;
     padding-top: 20px;
 }
-.trouvez_votre_hebergement h3,
+.trouvez_votre_hebergement h1,
 h5 {
   margin-left: 20px;
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
 }
 .barre_recherche {
   margin-left: 20px;
@@ -46,8 +45,21 @@ h5 {
   border-bottom-left-radius: 20px 20px;
 }
 i {
-  font-size: 20px; /* we can change the icon size with css*/
+  font-size: 30px; /* we can change the icon size with css*/
 }
-#ville{
-width: 8%;
+.champ_recherche{
+  height: 43px;
+  font-family: "Raleway", sans-serif;
+  color: #000000;
+}
+.bouton_recherche{
+  display: inline-block; 
+  height: 43px;
+  font-size: 18px;
+  line-height: 39px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  background-color: hsl(244, 100%, 49%);
+  color: #ffffff;
+  border-radius: 0px 10px 10px 0px;
 }
