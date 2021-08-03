@@ -95,3 +95,20 @@ i {
   font-size: 15px;
   font-weight: bold;
 }
+.square_container {
+  display: flex;
+  margin-left: 20px;
+  height: 800px;
+  width: 800px;
+  background-color: #e6e6e6e7;
+  border-radius: 20px 20px 20px 20px;
+}
+.rectangle_container {
+  display: flex;
+  height: 800px;
+  width: 600px;
+  background-color: #e6e6e6e7;
+  border-radius: 20px 20px 20px 20px;
+  float: right;
+  margin-right: 20px;
+}
