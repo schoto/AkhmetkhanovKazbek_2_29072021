@@ -67,7 +67,6 @@ i {
 .filtres {
   list-style-type: none;
   font-family: "Raleway", sans-serif;
-  color: #000000;
   font-weight: bold;
   display: inline-flex;
 }
@@ -79,6 +78,19 @@ i {
 }
 .romantique {
   margin-right: 60px;
+}
+/*changing icon colors one by one*/
+.fa-money-bill-wave{
+  color: #0065fc;
+}
+.fa-child{
+  color: #0065fc;
+}
+.fa-heart{
+  color: #0065fc;
+}
+.fa-dog{
+  color: #0065fc;
 }
 .image_info {
   color: #0065fc;
@@ -127,14 +139,18 @@ i {
   font-weight: bold;
   color: #000000;
 }
-.text_activites_marseille {
+.activites_marseille_text {
   margin-left: 20px;
+}
+.activites_marseille_text h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
 }
 .activites_marseille{
   display: flex;
   height: 300px;
-  width: 80%;
+  width: 90%;
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
-  margin-right: 20px;
+  margin:auto;
 }
