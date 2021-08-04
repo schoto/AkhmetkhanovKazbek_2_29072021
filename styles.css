@@ -72,12 +72,39 @@ i {
 }
 .economique {
   margin-right: 60px;
+  border-radius: 25px;
+  border: 2px solid #a8a8a8;
+  padding: 15px;
+  width: 130px;
+  height: 15px;
+  background-color:#e6e6e6e7;
 }
 .familial {
   margin-right: 60px;
+  border-radius: 25px;
+  border: 2px solid #a8a8a8;
+  padding: 15px;
+  width: 130px;
+  height: 15px;
+  background-color:#e6e6e6e7;
 }
 .romantique {
   margin-right: 60px;
+  border-radius: 25px;
+  border: 2px solid #a8a8a8;
+  padding: 15px;
+  width: 130px;
+  height: 15px;
+  background-color:#e6e6e6e7;
+}
+.animaux_autorises{
+  margin-right: 60px;
+  border-radius: 25px;
+  border: 2px solid #a8a8a8;
+  padding: 15px;
+  width: 170px;
+  height: 15px;
+  background-color:#e6e6e6e7;
 }
 /*changing icon colors one by one*/
 .fa-money-bill-wave{
