@@ -70,54 +70,61 @@ i {
   font-weight: bold;
   display: inline-flex;
 }
+.filtres_container{
+  margin-top: 50px;
+}
 .economique {
   margin-right: 60px;
   border-radius: 25px;
   border: 2px solid #a8a8a8;
   padding: 15px;
-  width: 130px;
+  width: 200px;
   height: 15px;
-  background-color:#e6e6e6e7;
+  background-color: #f2f2f2;
 }
 .familial {
   margin-right: 60px;
   border-radius: 25px;
   border: 2px solid #a8a8a8;
   padding: 15px;
-  width: 130px;
+  width: 200px;
   height: 15px;
-  background-color:#e6e6e6e7;
+  background-color: #f2f2f2;
 }
 .romantique {
   margin-right: 60px;
   border-radius: 25px;
   border: 2px solid #a8a8a8;
   padding: 15px;
-  width: 130px;
+  width: 200px;
   height: 15px;
-  background-color:#e6e6e6e7;
+  background-color: #f2f2f2;
 }
-.animaux_autorises{
+.animaux_autorises {
   margin-right: 60px;
   border-radius: 25px;
   border: 2px solid #a8a8a8;
   padding: 15px;
-  width: 170px;
+  width: 200px;
   height: 15px;
-  background-color:#e6e6e6e7;
+  background-color: #f2f2f2;
 }
 /*changing icon colors one by one*/
-.fa-money-bill-wave{
+.fa-money-bill-wave {
   color: #0065fc;
+  margin-right: 20px;
 }
-.fa-child{
+.fa-child {
   color: #0065fc;
+  margin-right: 20px;
 }
-.fa-heart{
+.fa-heart {
   color: #0065fc;
+  margin-right: 20px;
 }
-.fa-dog{
+.fa-dog {
   color: #0065fc;
+  margin-right: 20px;
 }
 .image_info {
   color: #0065fc;
@@ -144,6 +151,7 @@ i {
   float: left;
 }
 .hebergements_marseille {
+  display: flex;
   margin-left: 3%;
   margin-top: 3%;
   font-family: "Raleway", sans-serif;
@@ -173,11 +181,19 @@ i {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
 }
-.activites_marseille{
+.activites_marseille {
   display: flex;
   height: 300px;
-  width: 90%;
+  width: 100%;
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
-  margin:auto;
+  margin: auto;
+}
+.pied_de_page {
+  display: flex;
+  height: 200px;
+  width: 100%;
+  background-color: #e6e6e6e7;
+  margin-top: 80px;
+  margin-bottom: 20px;
 }
