@@ -203,7 +203,7 @@ i {
 }
 .auberge_cannebiere {
   width: 200px;
-  height: 180px;
+  height: 200px;
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 15px;
@@ -226,9 +226,19 @@ i {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
-
+/*changing specs of stars*/
+.note_etoile_auberge_cannebiere{
+  color: #0065fc;
+  display: inline-flex;
+  margin-top: 85%;
+  margin-left: -100%;
+  list-style-type: none;
+}
+.five_star_auberge_cannebiere{ /*had to change this one with its own code, because of the grey color*/ 
+  color: #a8a8a8;
+}
+ /*footer*/
 .pied_de_page {
-  /*footer*/
   display: flex;
   height: 200px;
   width: 100%;
