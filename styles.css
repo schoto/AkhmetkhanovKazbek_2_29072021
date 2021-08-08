@@ -271,13 +271,49 @@ i {
   margin-left: -90%;
   list-style-type: none;
 }
-
+.hotel_les_mouettes{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 35%;
+  box-shadow: 0px 0px 10px 10px #818181;
+}
+.hotel_les_mouettes p{
+    margin-top: 65%;
+    margin-left: 10%;
+}
+.image_hotel_les_mouettes{
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.note_etoile_hotel_les_mouettes{
+  color: #0065fc;
+  display: inline-flex;
+  margin-top: 85%;
+  margin-left: -90%;
+  list-style-type: none;
+}
  /*footer*/
-.pied_de_page {
+ .pied_de_page{
   display: flex;
   height: 200px;
   width: 100%;
   background-color: #e6e6e6e7;
   margin-top: 80px;
-  margin-bottom: 20px; /*I added this margin for better appearance of the page*/
-}
+  margin-bottom: 20px;
+ }
+ .five_star_hotel_les_mouettes{
+   color: #a8a8a8;
+ }
+  
