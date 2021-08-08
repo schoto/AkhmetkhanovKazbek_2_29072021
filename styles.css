@@ -153,7 +153,7 @@ i {
   /* container with Hebergements a Marseille*/
   display: flex;
   margin-left: 20px;
-  height: 800px;
+  height: 700px;
   width: 800px;
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
@@ -163,7 +163,7 @@ i {
   /*text "Hebergements a Marseille" in container*/
   display: flex;
   margin-left: 3%;
-  margin-top: 5%;
+  margin-top: 3%;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #000000;
@@ -171,7 +171,7 @@ i {
 .rectangle_container {
   /*container on the right side with "Les plus populaires" */
   display: flex;
-  height: 800px;
+  height: 700px;
   width: 600px;
   background-color: #e6e6e6e7;
   border-radius: 20px 20px 20px 20px;
@@ -181,7 +181,7 @@ i {
 .les_plus_populaires {
   /*text "Les plus populaires" in container*/
   margin-left: 3%;
-  margin-top: 6%;
+  margin-top: 4%;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #000000;
@@ -304,6 +304,85 @@ i {
   margin-left: -90%;
   list-style-type: none;
 }
+.five_star_hotel_les_mouettes{
+  color: #a8a8a8;
+}
+.hotel_de_la_mer{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 20px;
+  box-shadow: 0px 0px 10px 10px #818181;
+}
+.hotel_de_la_mer p{
+  margin-top: 65%;
+  margin-left: 10%;
+}
+.image_hotel_de_la_mer{
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.note_etoile_hotel_de_la_mer{
+  color: #0065fc;
+  display: inline-flex;
+  margin-top: 85%;
+  margin-left: -90%;
+  list-style-type: none;
+}
+.five_star_hotel_de_la_mer{
+  color: #a8a8a8;
+}
+.four_star_hotel_de_la_mer{
+  color: #a8a8a8;
+}
+.auberge_le_panier{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 270px;
+  box-shadow: 0px 0px 10px 10px #818181;
+}
+.auberge_le_panier p{
+  margin-top: 65%;
+  margin-left: 10%;
+}
+.image_auberge_le_panier{
+  height: 50%;
+  width: 90%;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 5%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.note_etoile_auberge_le_panier{
+  color: #0065fc;
+  display: inline-flex;
+  margin-top: 85%;
+  margin-left: -90%;
+  list-style-type: none;
+}
+.five_star_auberge_le_panier{
+  color: #a8a8a8;
+}
+
  /*footer*/
  .pied_de_page{
   display: flex;
@@ -313,7 +392,5 @@ i {
   margin-top: 80px;
   margin-bottom: 20px;
  }
- .five_star_hotel_les_mouettes{
-   color: #a8a8a8;
- }
+
   
