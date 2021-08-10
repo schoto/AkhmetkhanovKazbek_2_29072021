@@ -211,6 +211,7 @@ i {
   border-radius: 20px 20px 20px 20px;
   margin: auto;
 }
+/*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
   width: 200px;
   height: 200px;
@@ -249,6 +250,7 @@ i {
   /*had to change this one with its own code, because of the grey color*/
   color: #a8a8a8;
 }
+/*HOTEL DU PORT*/
 .hotel_du_port {
   width: 200px;
   height: 200px;
@@ -282,6 +284,7 @@ i {
   margin-left: -87%;
   list-style-type: none;
 }
+/*HOTEL LES MOUETTES*/
 .hotel_les_mouettes {
   width: 200px;
   height: 200px;
@@ -318,6 +321,7 @@ i {
 .five_star_hotel_les_mouettes {
   color: #a8a8a8;
 }
+/*HOTEL DE LA MER*/
 .hotel_de_la_mer {
   width: 200px;
   height: 200px;
@@ -357,6 +361,7 @@ i {
 .four_star_hotel_de_la_mer {
   color: #a8a8a8;
 }
+/*AUBERGE LE PANIER*/
 .auberge_le_panier {
   width: 200px;
   height: 200px;
@@ -393,6 +398,7 @@ i {
 .five_star_auberge_le_panier {
   color: #a8a8a8;
 }
+/*HOTEL CHEZ AMINA*/
 .hotel_chez_amina {
   width: 200px;
   height: 200px;
@@ -426,14 +432,80 @@ i {
   margin-left: -87%;
   list-style-type: none;
 }
-.text_afficher_plus{
-  display:flex;
+.text_afficher_plus {
+  display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   font-size: larger;
   margin-left: -35%;
   margin-top: 80%;
   color: #000000;
+}
+/*HOTEL LE SOLEIL DU MATIN*/
+.hotel_le_soleil_du_matin {
+  width: 550px;
+  height: 170px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 6%;
+  margin-left: 2%;
+  box-shadow: 0px 0px 10px 10px #818181;
+}
+.image_hotel_le_soleil_du_matin {
+  height: 90%;
+  width: 40%;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 8px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.hotel_le_soleil_du_matin p {
+  margin-left: auto;
+  margin-top: 5%;
+}
+.note_etoile_hotel_le_soleil_du_matin {
+  color: #0065fc;
+  display: flex;
+  list-style-type: none;
+  margin-top: 25%;
+}
+/*AU COEUR DE L'EAU CHAMBRES D'HOTES*/
+.au_coeur_chambres_hotes {
+  width: 550px;
+  height: 170px;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  background-color: white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: 20%;
+  margin-left: 2%;
+  box-shadow: 0px 0px 10px 10px #818181;
+}
+.image_au_coeur_chambres_hotes {
+  height: 90%;
+  width: 40%;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 8px;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.au_coeur_chambres_hotes p {
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.note_etoile_au_coeur_chambres_hotes {
+  color: #0065fc;
+  display: flex;
+  list-style-type: none;
+  margin-top: 25%;
 }
 /*footer*/
 .pied_de_page {
