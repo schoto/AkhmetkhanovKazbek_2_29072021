@@ -476,6 +476,9 @@ i {
   margin-top: 80%;
   color: #000000;
 }
+.text_afficher_plus:hover{
+  transform: scale(1.1);
+}
 /*HOTEL LE SOLEIL DU MATIN*/
 .hotel_le_soleil_du_matin {
   width: 550px;
@@ -603,6 +606,7 @@ i {
   margin-left: 20px;
   margin-top: 28%;
   font-family: "Raleway", sans-serif;
+  font-size: 100%;
 }
 .image_vieux_port {
   display: flex;
@@ -611,6 +615,34 @@ i {
   position: absolute;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+}
+/*FORT DE POMEGUES*/
+.container_fort_de_pomegues{
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 10px #818181;
+  width: 300px;
+  height: 210px;
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-bottom: auto;
+  margin-left: 20px;
+  display: flex;
+}
+.image_fort_de_pomegues {
+  display: flex;
+  height: 25%;
+  width: 300px;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.texte_fort_de_pomegues{
+  display: flex;
+  position:absolute;
+  margin-left: 2%;
+  margin-top: 12%;
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
 }
 
 /*footer*/
