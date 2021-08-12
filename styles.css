@@ -100,7 +100,7 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
-.economique:hover{
+.economique:hover {
   transform: scale(1.1);
 }
 .familial {
@@ -112,7 +112,7 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
-.familial:hover{
+.familial:hover {
   transform: scale(1.1);
 }
 .romantique {
@@ -124,7 +124,7 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
-.romantique:hover{
+.romantique:hover {
   transform: scale(1.1);
 }
 .animaux_autorises {
@@ -136,7 +136,7 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
-.animaux_autorises:hover{
+.animaux_autorises:hover {
   transform: scale(1.1);
 }
 /*changing icon colors one by one*/
@@ -238,7 +238,7 @@ i {
   box-shadow: 0px 0px 10px 10px #818181;
 }
 /*ZOOM HOVER EFFECT*/
-.auberge_cannebiere:hover{
+.auberge_cannebiere:hover {
   transform: scale(1.1);
 }
 .auberge_cannebiere p {
@@ -281,7 +281,7 @@ i {
   box-shadow: 0px 0px 10px 10px #818181;
 }
 /*ZOOM HOVER EFFECT*/
-.hotel_du_port:hover{
+.hotel_du_port:hover {
   transform: scale(1.1);
 }
 .hotel_du_port p {
@@ -319,7 +319,7 @@ i {
   box-shadow: 0px 0px 10px 10px #818181;
 }
 /*ZOOM HOVER EFFECT*/
-.hotel_les_mouettes:hover{
+.hotel_les_mouettes:hover {
   transform: scale(1.1);
 }
 .hotel_les_mouettes p {
@@ -360,7 +360,7 @@ i {
   box-shadow: 0px 0px 10px 10px #818181;
 }
 /*ZOOM HOVER EFFECT*/
-.hotel_de_la_mer:hover{
+.hotel_de_la_mer:hover {
   transform: scale(1.1);
 }
 .hotel_de_la_mer p {
@@ -404,7 +404,7 @@ i {
   box-shadow: 0px 0px 10px 10px #818181;
 }
 /*ZOOM HOVER EFFECT*/
-.auberge_le_panier:hover{
+.auberge_le_panier:hover {
   transform: scale(1.1);
 }
 .auberge_le_panier p {
@@ -444,7 +444,7 @@ i {
   margin-left: 35%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
-.hotel_chez_amina:hover{
+.hotel_chez_amina:hover {
   transform: scale(1.1);
 }
 .hotel_chez_amina p {
@@ -476,7 +476,7 @@ i {
   margin-top: 80%;
   color: #000000;
 }
-.text_afficher_plus:hover{
+.text_afficher_plus:hover {
   transform: scale(1.1);
 }
 /*HOTEL LE SOLEIL DU MATIN*/
@@ -493,7 +493,7 @@ i {
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
-.hotel_le_soleil_du_matin:hover{
+.hotel_le_soleil_du_matin:hover {
   transform: scale(1.1);
 }
 .image_hotel_le_soleil_du_matin {
@@ -529,7 +529,7 @@ i {
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
-.au_coeur_chambres_hotes:hover{
+.au_coeur_chambres_hotes:hover {
   transform: scale(1.1);
 }
 .image_au_coeur_chambres_hotes {
@@ -565,7 +565,7 @@ i {
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
-.hotel_tout_bleu_et_blanc:hover{
+.hotel_tout_bleu_et_blanc:hover {
   transform: scale(1.1);
 }
 .image_hotel_tout_bleu_et_blanc {
@@ -589,7 +589,7 @@ i {
 }
 /*LES ACTIVITES A MARSEILLE*/
 /*VIEUX PORT*/
-.container_vieux_port{
+.container_vieux_port {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px #818181;
   width: 300px;
@@ -600,9 +600,9 @@ i {
   margin-left: 20px;
   display: flex;
 }
-.texte_vieux_port{
+.texte_vieux_port {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-left: 20px;
   margin-top: 28%;
   font-family: "Raleway", sans-serif;
@@ -617,7 +617,7 @@ i {
   border-top-left-radius: 20px;
 }
 /*FORT DE POMEGUES*/
-.container_fort_de_pomegues{
+.container_fort_de_pomegues {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px #818181;
   width: 300px;
@@ -636,16 +636,16 @@ i {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-.texte_fort_de_pomegues{
+.texte_fort_de_pomegues {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-left: 2%;
   margin-top: 12%;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
 /*ILES DU FRIOUL*/
-.container_iles_du_frioul{
+.container_iles_du_frioul {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px #818181;
   width: 300px;
@@ -664,15 +664,16 @@ i {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-.texte_iles_du_frioul{
+.texte_iles_du_frioul {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-left: 2%;
   margin-top: 12%;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
-.container_parc_national_des_calanques{
+/*PARC NATIONAL DES CALANQUES*/
+.container_parc_national_des_calanques {
   background-color: #ffffff;
   box-shadow: 0px 0px 10px 10px #818181;
   width: 300px;
@@ -683,9 +684,9 @@ i {
   margin-left: 20px;
   display: flex;
 }
-.texte_parc_national_des_calanques{
+.texte_parc_national_des_calanques {
   display: flex;
-  position:absolute;
+  position: absolute;
   margin-left: 20px;
   margin-top: 28%;
   font-family: "Raleway", sans-serif;
@@ -698,6 +699,34 @@ i {
   position: absolute;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
+}
+/*NOTRE DAME DE LA GARDE*/
+.container_notre_dame_de_la_garde {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 10px #818181;
+  width: 300px;
+  height: 210px;
+  border-radius: 30px;
+  margin-top: 265px;
+  margin-bottom: auto;
+  margin-left: 3%;
+  display: flex;
+}
+.image_notre_dame_de_la_garde {
+  display: flex;
+  height: 25%;
+  width: 300px;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.texte_notre_dame_de_la_garde {
+  display: flex;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 12%;
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
 }
 /*footer*/
 .pied_de_page {
