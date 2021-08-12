@@ -100,6 +100,9 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
+.economique:hover{
+  transform: scale(1.1);
+}
 .familial {
   margin-right: 60px;
   border-radius: 25px;
@@ -108,6 +111,9 @@ i {
   width: 200px;
   height: 15px;
   background-color: #f2f2f2;
+}
+.familial:hover{
+  transform: scale(1.1);
 }
 .romantique {
   margin-right: 60px;
@@ -118,6 +124,9 @@ i {
   height: 15px;
   background-color: #f2f2f2;
 }
+.romantique:hover{
+  transform: scale(1.1);
+}
 .animaux_autorises {
   margin-right: 60px;
   border-radius: 25px;
@@ -126,6 +135,9 @@ i {
   width: 200px;
   height: 15px;
   background-color: #f2f2f2;
+}
+.animaux_autorises:hover{
+  transform: scale(1.1);
 }
 /*changing icon colors one by one*/
 .fa-money-bill-wave {
@@ -225,6 +237,10 @@ i {
   margin-left: 20px;
   box-shadow: 0px 0px 10px 10px #818181;
 }
+/*ZOOM HOVER EFFECT*/
+.auberge_cannebiere:hover{
+  transform: scale(1.1);
+}
 .auberge_cannebiere p {
   margin-top: 65%;
   margin-left: 10%;
@@ -264,6 +280,10 @@ i {
   margin-left: 18%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
+/*ZOOM HOVER EFFECT*/
+.hotel_du_port:hover{
+  transform: scale(1.1);
+}
 .hotel_du_port p {
   margin-top: 65%;
   margin-left: 10%;
@@ -297,6 +317,10 @@ i {
   margin-top: 6%;
   margin-left: 35%;
   box-shadow: 0px 0px 10px 10px #818181;
+}
+/*ZOOM HOVER EFFECT*/
+.hotel_les_mouettes:hover{
+  transform: scale(1.1);
 }
 .hotel_les_mouettes p {
   margin-top: 65%;
@@ -334,6 +358,10 @@ i {
   margin-top: 25%;
   margin-left: 20px;
   box-shadow: 0px 0px 10px 10px #818181;
+}
+/*ZOOM HOVER EFFECT*/
+.hotel_de_la_mer:hover{
+  transform: scale(1.1);
 }
 .hotel_de_la_mer p {
   margin-top: 65%;
@@ -375,6 +403,10 @@ i {
   margin-left: 270px;
   box-shadow: 0px 0px 10px 10px #818181;
 }
+/*ZOOM HOVER EFFECT*/
+.auberge_le_panier:hover{
+  transform: scale(1.1);
+}
 .auberge_le_panier p {
   margin-top: 65%;
   margin-left: 10%;
@@ -411,6 +443,9 @@ i {
   margin-top: 25%;
   margin-left: 35%;
   box-shadow: 0px 0px 10px 10px #818181;
+}
+.hotel_chez_amina:hover{
+  transform: scale(1.1);
 }
 .hotel_chez_amina p {
   margin-top: 65%;
@@ -455,6 +490,9 @@ i {
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
+.hotel_le_soleil_du_matin:hover{
+  transform: scale(1.1);
+}
 .image_hotel_le_soleil_du_matin {
   height: 90%;
   width: 40%;
@@ -487,6 +525,9 @@ i {
   margin-top: 20%;
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
+}
+.au_coeur_chambres_hotes:hover{
+  transform: scale(1.1);
 }
 .image_au_coeur_chambres_hotes {
   height: 90%;
@@ -521,6 +562,9 @@ i {
   margin-left: 2%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
+.hotel_tout_bleu_et_blanc:hover{
+  transform: scale(1.1);
+}
 .image_hotel_tout_bleu_et_blanc {
   height: 90%;
   width: 40%;
@@ -551,6 +595,7 @@ i {
   margin-top: auto;
   margin-bottom: auto;
   margin-left: 20px;
+  display: flex;
 }
 .texte_vieux_port{
   display: flex;
