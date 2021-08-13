@@ -22,12 +22,6 @@ header img {
   margin-left: 20px;
   margin-top: 20px;
 }
-a:hover {
-  /*hover effect on "hebergements, activites, s'inscrire*/
-  border-top: 3px solid #0065fc;
-  padding-top: 10px;
-  text-decoration: none;
-}
 a:link {
   text-decoration: none;
 }
@@ -709,7 +703,7 @@ i {
   border-radius: 30px;
   margin-top: 265px;
   margin-bottom: auto;
-  margin-left: 3%;
+  margin-left: 15%;
   display: flex;
 }
 .image_notre_dame_de_la_garde {
@@ -728,12 +722,52 @@ i {
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
+/*PARC LONGCHAMP*/
+/*.container_parc_longchamp {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px 10px #818181;
+  width: 300px;
+  height: 210px;
+  border-radius: 30px;
+  margin-top: 265px;
+  margin-bottom: auto;
+  margin-right: 95%;
+  display: flex;
+}
+.image_parc_longchamp {
+  display:flex;
+  height: 25%;
+  width: auto;
+  position: absolute;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.texte_parc_longchamp {
+  display: flex;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 12%;
+  font-family: "Raleway", sans-serif;
+  font-size: 100%;
+} */
 /*footer*/
 .pied_de_page {
   display: flex;
-  height: 200px;
+  height: 150px;
   width: 100%;
   background-color: #e6e6e6e7;
   margin-top: 80px;
   margin-bottom: 20px;
+}
+.liste_a_propos{
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+}
+.liste_nos_hebergements{
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
+}
+.liste_assistance{
+  font-family: "Raleway", sans-serif;
+  list-style-type: none;
 }
