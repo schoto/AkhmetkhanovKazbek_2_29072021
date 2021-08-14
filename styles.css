@@ -110,6 +110,7 @@ i {
   border-top-right-radius: 35%;
   border-bottom-right-radius: 35%;
   background-color: #DEEBFF;
+  position : relative; right : 15px;
 }
 .familial {
   margin-right: 60px;
@@ -133,6 +134,7 @@ i {
   border-top-right-radius: 35%;
   border-bottom-right-radius: 35%;
   background-color: #DEEBFF;
+  position : relative; right : 15px;
 }
 .romantique {
   margin-right: 60px;
@@ -156,6 +158,7 @@ i {
   border-top-right-radius: 35%;
   border-bottom-right-radius: 35%;
   background-color: #DEEBFF;
+  position : relative; right : 15px;
 }
 .animaux_autorises {
   margin-right: 60px;
@@ -179,6 +182,7 @@ i {
   border-top-right-radius: 35%;
   border-bottom-right-radius: 35%;
   background-color: #DEEBFF;
+  position : relative; right : 15px;
 }
 /*changing icon colors one by one*/
 .fa-money-bill-wave {
