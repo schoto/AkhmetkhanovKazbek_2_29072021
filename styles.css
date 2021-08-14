@@ -524,6 +524,7 @@ i {
 .text_afficher_plus:hover {
   transform: scale(1.1);
 }
+/*LES PLUS POPULAIRES*/
 /*HOTEL LE SOLEIL DU MATIN*/
 .hotel_le_soleil_du_matin {
   width: 550px;
@@ -559,6 +560,7 @@ i {
   display: flex;
   list-style-type: none;
   margin-top: 25%;
+  position: relative; right: 40%;
 }
 /*AU COEUR DE L'EAU CHAMBRES D'HOTES*/
 .au_coeur_chambres_hotes {
@@ -595,6 +597,7 @@ i {
   display: flex;
   list-style-type: none;
   margin-top: 25%;
+  position: relative; right: 35%;
 }
 /*HOTEL TOUT BLEU ET BLANC*/
 .hotel_tout_bleu_et_blanc {
@@ -631,6 +634,7 @@ i {
   display: flex;
   list-style-type: none;
   margin-top: 25%;
+  position: relative; right: 40%;
 }
 /*LES ACTIVITES A MARSEILLE*/
 /*VIEUX PORT*/
