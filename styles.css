@@ -271,11 +271,11 @@ i {
 }
 /*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
@@ -314,11 +314,11 @@ i {
 }
 /*HOTEL DU PORT*/
 .hotel_du_port {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
@@ -352,11 +352,11 @@ i {
 }
 /*HOTEL LES MOUETTES*/
 .hotel_les_mouettes {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
@@ -393,11 +393,11 @@ i {
 }
 /*HOTEL DE LA MER*/
 .hotel_de_la_mer {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
@@ -437,11 +437,11 @@ i {
 }
 /*AUBERGE LE PANIER*/
 .auberge_le_panier {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
@@ -478,11 +478,11 @@ i {
 }
 /*HOTEL CHEZ AMINA*/
 .hotel_chez_amina {
-  width: 200px;
-  height: 200px;
+  width: 13%;
+  height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
-  font-size: 15px;
+  font-size: 95%;
   background-color: white;
   border-radius: 20px;
   position: absolute;
