@@ -96,7 +96,7 @@ i {
   padding: 15px;
   width: 200px;
   height: 15px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .economique:hover {
   transform: scale(1.1);
@@ -120,7 +120,7 @@ i {
   padding: 15px;
   width: 200px;
   height: 15px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .familial:hover {
   transform: scale(1.1);
@@ -144,7 +144,7 @@ i {
   padding: 15px;
   width: 200px;
   height: 15px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .romantique:hover {
   transform: scale(1.1);
@@ -168,7 +168,7 @@ i {
   padding: 15px;
   width: 200px;
   height: 15px;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .animaux_autorises:hover {
   transform: scale(1.1);
