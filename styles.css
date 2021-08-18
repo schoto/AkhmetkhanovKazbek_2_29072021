@@ -644,8 +644,7 @@ justify-content: space-between;
   margin-top: 25%;
   position: relative; right: 40%;
 }
-/*LES ACTIVITES A MARSEILLE*/
-/*VIEUX PORT*/
+/*
 .container_vieux_port {
   width: 23%;
   height: 100%;
@@ -670,7 +669,13 @@ justify-content: space-between;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-/*FORT DE POMEGUES*/
+.fort_de_pomegues_et_iles_du_frioul{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+}
+
 .container_fort_de_pomegues {
   width: 17%;
   height: 100%;
@@ -696,7 +701,7 @@ justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
-/*ILES DU FRIOUL*/
+
 .container_iles_du_frioul {
   width: 22%;
   height: auto;
@@ -721,7 +726,6 @@ justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
-/*PARC NATIONAL DES CALANQUES*/
 .container_parc_national_des_calanques {
   width: 20%;
   height: 100%;
@@ -746,7 +750,7 @@ justify-content: space-between;
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
 }
-/*NOTRE DAME DE LA GARDE*/
+
 .container_notre_dame_de_la_garde {
   width: 300px;
   height: 210px;
@@ -772,7 +776,7 @@ justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
-/*PARC LONGCHAMP*/
+
 .container_parc_longchamp {
   width: 300px;
   height: 210px;
@@ -797,6 +801,7 @@ justify-content: space-between;
   font-family: "Raleway", sans-serif;
   font-size: 100%;
 }
+*/
 /*footer*/
 footer{
   text-align: center;
