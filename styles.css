@@ -77,7 +77,7 @@ i {
   width: 120px;
   padding-left: 10px;
 }
-.bouton_recherche:hover{
+.bouton_recherche:hover {
   transform: scale(1.1);
 }
 .filtres {
@@ -103,18 +103,19 @@ i {
 }
 .economique:hover {
   transform: scale(1.1);
-  background-color: #DEEBFF;
+  background-color: #deebff;
 }
-.round_icon_economique{
+.round_icon_economique {
   padding-top: 15px;
   padding-bottom: 11px;
   padding-left: 5px;
-  border-top-left-radius: 25px ;
-  border-bottom-left-radius: 25px ;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #DEEBFF;
-  position : relative; right : 15px;
+  background-color: #deebff;
+  position: relative;
+  right: 15px;
 }
 .familial {
   margin-right: 60px;
@@ -127,18 +128,19 @@ i {
 }
 .familial:hover {
   transform: scale(1.1);
-  background-color: #DEEBFF;
+  background-color: #deebff;
 }
-.round_icon_familial{
+.round_icon_familial {
   padding-top: 15px;
   padding-bottom: 11px;
   padding-left: 15px;
-  border-top-left-radius: 20px ;
-  border-bottom-left-radius: 20px ;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #DEEBFF;
-  position : relative; right : 15px;
+  background-color: #deebff;
+  position: relative;
+  right: 15px;
 }
 .romantique {
   margin-right: 60px;
@@ -151,18 +153,19 @@ i {
 }
 .romantique:hover {
   transform: scale(1.1);
-  background-color: #DEEBFF;
+  background-color: #deebff;
 }
-.round_icon_romantique{
+.round_icon_romantique {
   padding-top: 15px;
   padding-bottom: 11px;
   padding-left: 15px;
-  border-top-left-radius: 20px ;
-  border-bottom-left-radius: 20px ;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #DEEBFF;
-  position : relative; right : 15px;
+  background-color: #deebff;
+  position: relative;
+  right: 15px;
 }
 .animaux_autorises {
   margin-right: 60px;
@@ -175,18 +178,19 @@ i {
 }
 .animaux_autorises:hover {
   transform: scale(1.1);
-  background-color: #DEEBFF;
+  background-color: #deebff;
 }
-.round_icon_animaux_autorises{
+.round_icon_animaux_autorises {
   padding-top: 15px;
   padding-bottom: 11px;
   padding-left: 15px;
-  border-top-left-radius: 20px ;
-  border-bottom-left-radius: 20px ;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
-  background-color: #DEEBFF;
-  position : relative; right : 15px;
+  background-color: #deebff;
+  position: relative;
+  right: 15px;
 }
 /*changing icon colors to blue*/
 .fa-money-bill-wave {
@@ -220,8 +224,8 @@ i {
   font-size: 15px;
   font-weight: bold;
 }
-.container_for_square_and_rectangle_boxes{
-justify-content: space-between;
+.container_for_square_and_rectangle_boxes {
+  justify-content: space-between;
 }
 .square_container {
   /* container with Hebergements a Marseille*/
@@ -508,10 +512,11 @@ justify-content: space-between;
   display: flex;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size:medium;
+  font-size: medium;
   margin-top: 80%;
   color: #000000;
-  position: relative; right: 38%;
+  position: relative;
+  right: 38%;
 }
 .text_afficher_plus:hover {
   transform: scale(1.1);
@@ -552,7 +557,8 @@ justify-content: space-between;
   display: flex;
   list-style-type: none;
   margin-top: 25%;
-  position: relative; right: 40%;
+  position: relative;
+  right: 40%;
 }
 /*AU COEUR DE L'EAU CHAMBRES D'HOTES*/
 .au_coeur_chambres_hotes {
@@ -589,7 +595,8 @@ justify-content: space-between;
   display: flex;
   list-style-type: none;
   margin-top: 25%;
-  position: relative; right: 35%;
+  position: relative;
+  right: 35%;
 }
 /*HOTEL TOUT BLEU ET BLANC*/
 .hotel_tout_bleu_et_blanc {
@@ -626,10 +633,11 @@ justify-content: space-between;
   display: flex;
   list-style-type: none;
   margin-top: 25%;
-  position: relative; right: 40%;
+  position: relative;
+  right: 40%;
 }
 /*footer*/
-footer{
+footer {
   text-align: center;
 }
 .pied_de_page {
@@ -640,17 +648,17 @@ footer{
   margin-bottom: 1%;
   justify-content: space-evenly;
 }
-.liste_a_propos{
+.liste_a_propos {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   margin-top: 5px;
 }
-.liste_nos_hebergements{
+.liste_nos_hebergements {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   margin-top: 5px;
 }
-.liste_assistance{
+.liste_assistance {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   margin-top: 5px;
