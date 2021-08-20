@@ -636,8 +636,9 @@ i {
   display: flex;
   width: 90%;
   height: 500px;
-  background-color: rgb(177, 79, 79);
+  background-color: rgb(255, 255, 255);
   margin: auto;
+  justify-content: space-between;
 }
 .vieux_port {
   width: 22%;
@@ -720,6 +721,89 @@ i {
   display: block;
 }
 .activites_deux_et_trois{
+  margin-left: 50px;
+}
+.parc_national_des_calanques {
+  width: 22%;
+  height: 100%;
+  border-radius: 10%;
+  margin-left: 2%;
+  background: white;
+  box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+}
+.parc_national_des_calanques:hover {
+  transform: scale(1.1);
+}
+.parc_national_des_calanques img {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.parc_national_des_calanques h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-left: 8%;
+  display: block;
+}
+.notre_dame_de_la_garde {
+  width: 100%;
+  height: 45%;
+  margin-top: 1%;
+  border-radius: 10%;
+  background: white;
+  box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+}
+.notre_dame_de_la_garde:hover {
+  transform: scale(1.1);
+}
+.notre_dame_de_la_garde img {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.notre_dame_de_la_garde h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-left: 8%;
+  margin-top:2%;
+  display: block;
+}
+.parc_longchamp {
+  width: 100%;
+  height: 45%;
+  margin-top: 14%;
+  border-radius: 10%;
+  background: white;
+  box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+}
+.parc_longchamp:hover {
+  transform: scale(1.1);
+}
+.parc_longchamp img {
+  display: flex;
+  width: 100%;
+  height: 85%;
+  margin-top: 1%;
+  margin-left: 1%;
+  border-top-left-radius: 10%;
+  border-top-right-radius: 10%;
+}
+.parc_longchamp h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-left: 8%;
+  margin-top:2%;
+  display: block;
+}
+.activites_cinq_et_six{
   margin-left: 50px;
 }
 /*footer*/
