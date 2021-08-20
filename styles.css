@@ -632,6 +632,14 @@ i {
   position: relative;
   right: 40%;
 }
+.text_activities {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  display: block;
+  padding: 2%;
+  position: relative;
+  right: 40%;
+}
 #activites_marseille {
   display: flex;
   width: 90%;
@@ -690,7 +698,7 @@ i {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
-  margin-top:2%;
+  margin-top: 2%;
   display: block;
 }
 .iles_de_frioul {
@@ -717,10 +725,10 @@ i {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
-  margin-top:2%;
+  margin-top: 2%;
   display: block;
 }
-.activites_deux_et_trois{
+.activites_deux_et_trois {
   margin-left: 50px;
 }
 .parc_national_des_calanques {
@@ -773,7 +781,7 @@ i {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
-  margin-top:2%;
+  margin-top: 2%;
   display: block;
 }
 .parc_longchamp {
@@ -800,10 +808,10 @@ i {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
-  margin-top:2%;
+  margin-top: 2%;
   display: block;
 }
-.activites_cinq_et_six{
+.activites_cinq_et_six {
   margin-left: 50px;
 }
 /*footer*/
