@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"); /* font imported from google fonts*/
+@media all and (max-width: 1024px) {
+.menu {
+  width: auto;
+  text-align: left;
+  flex-direction: column;
+  }
+.menu li {
+  padding-left: 4px;
+}
+.menu a {
+  font-size: 1.1em;
+}
+.menu a:hover {
+  border-bottom: 0;
+}
+}
 /* HEADER */
 .menu {
   display: flex; /* flexbox */
