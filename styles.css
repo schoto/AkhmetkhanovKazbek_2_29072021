@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"); /* font imported from google fonts*/
-@media all and (max-width: 1024px) {
-.sign_up{
-margin-top: 0%;
+@media all and (max-width: 1024px) { /*MEDIA QUERIES FOR FILTERS*/
+.filtres{
+  flex-flow:column;
+}
+.economique{
+  margin-bottom: 5%;
+}
+.familial{
+  margin-bottom: 5%;
+}
+.romantique{
+  margin-bottom: 5%;
 }
 }
 /* HEADER */
@@ -87,6 +96,7 @@ i {
 }
 .filtres_container {
   margin-top: 2%;
+  margin-left: auto;
   display: flex;
   flex-wrap: wrap;
 }
