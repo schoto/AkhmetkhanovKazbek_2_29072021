@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"); /* font imported from google fonts*/
-@media all and (max-width: 1024px) { /*MEDIA QUERIES FOR FILTERS*/
-.filtres{
-  flex-flow:column;
-}
-.economique{
-  margin-bottom: 5%;
-}
-.familial{
-  margin-bottom: 5%;
-}
-.romantique{
-  margin-bottom: 5%;
-}
-#activites_marseille{
-  flex-flow:column;
-}
-
+@media all and (max-width: 1024px) {
+  /*MEDIA QUERIES FOR FILTERS*/
+  .filtres {
+    flex-flow: column;
+  }
+  .economique {
+    margin-bottom: 5%;
+  }
+  .familial {
+    margin-bottom: 5%;
+  }
+  .romantique {
+    margin-bottom: 5%;
+  }
+  #activites_marseille {
+    flex-flow: column;
+  }
 }
 /* HEADER */
 .menu {
@@ -554,7 +554,7 @@ i {
   border-radius: 20px;
   position: absolute;
   margin-top: 6%;
-  margin-left: 2%;
+  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .hotel_le_soleil_du_matin:hover {
@@ -593,7 +593,7 @@ i {
   border-radius: 20px;
   position: absolute;
   margin-top: 18%;
-  margin-left: 2%;
+  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .au_coeur_chambres_hotes:hover {
@@ -632,7 +632,7 @@ i {
   border-radius: 20px;
   position: absolute;
   margin-top: 30%;
-  margin-left: 2%;
+  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .hotel_tout_bleu_et_blanc:hover {
