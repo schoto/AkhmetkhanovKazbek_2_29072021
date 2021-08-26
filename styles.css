@@ -113,6 +113,7 @@ i {
   width: 200px;
   height: 15px;
   background-color: #ffffff;
+  color: #000000;
 }
 .economique:hover {
   transform: scale(1.1);
@@ -138,6 +139,7 @@ i {
   width: 200px;
   height: 15px;
   background-color: #ffffff;
+  color: #000000;
 }
 .familial:hover {
   transform: scale(1.1);
@@ -163,6 +165,7 @@ i {
   width: 200px;
   height: 15px;
   background-color: #ffffff;
+  color: #000000;
 }
 .romantique:hover {
   transform: scale(1.1);
@@ -188,6 +191,7 @@ i {
   width: 200px;
   height: 15px;
   background-color: #ffffff;
+  color: #000000;
 }
 .animaux_autorises:hover {
   transform: scale(1.1);
@@ -300,6 +304,7 @@ i {
 .auberge_cannebiere p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_auberge_cannebiere {
   height: 50%;
@@ -344,6 +349,7 @@ i {
 .hotel_du_port p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_hotelduport {
   height: 50%;
@@ -383,6 +389,7 @@ i {
 .hotel_les_mouettes p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_hotel_les_mouettes {
   height: 50%;
@@ -425,6 +432,7 @@ i {
 .hotel_de_la_mer p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_hotel_de_la_mer {
   height: 50%;
@@ -470,6 +478,7 @@ i {
 .auberge_le_panier p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_auberge_le_panier {
   height: 50%;
@@ -511,6 +520,7 @@ i {
 .hotel_chez_amina p {
   margin-top: 65%;
   margin-left: 10%;
+  color: #000000;
 }
 .image_hotel_chez_amina {
   height: 50%;
@@ -573,6 +583,7 @@ i {
 .hotel_le_soleil_du_matin p {
   margin-left: auto;
   margin-top: 5%;
+  color: #000000;
 }
 .note_etoile_hotel_le_soleil_du_matin {
   color: #0065fc;
@@ -612,6 +623,8 @@ i {
 .au_coeur_chambres_hotes p {
   margin-left: 47%;
   margin-top: 5%;
+  color: #000000;
+
 }
 .note_etoile_au_coeur_chambres_hotes {
   color: #0065fc;
@@ -651,12 +664,13 @@ i {
 .hotel_tout_bleu_et_blanc p {
   margin-left: 47%;
   margin-top: 5%;
+  color: #000000;
 }
 .note_etoile_hotel_tout_bleu_et_blanc {
   color: #0065fc;
   display: flex;
   list-style-type: none;
-  margin-top: 25%;
+  margin-top: 24%;
   position: relative;
   right: 40%;
 }
