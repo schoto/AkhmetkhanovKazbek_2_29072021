@@ -12,6 +12,10 @@
 .romantique{
   margin-bottom: 5%;
 }
+#activites_marseille{
+  flex-flow:column;
+}
+
 }
 /* HEADER */
 .menu {
