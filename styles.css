@@ -309,6 +309,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 /*changing specs of stars*/
 .note_etoile_auberge_cannebiere {
@@ -352,6 +353,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 .note_etoile_hotel_du_port {
   color: #0065fc;
@@ -390,6 +392,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 .note_etoile_hotel_les_mouettes {
   color: #0065fc;
@@ -431,6 +434,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 .note_etoile_hotel_de_la_mer {
   color: #0065fc;
@@ -475,6 +479,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 .note_etoile_auberge_le_panier {
   color: #0065fc;
@@ -515,6 +520,7 @@ i {
   margin-top: 5%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  object-fit: cover;
 }
 .note_etoile_hotel_chez_amina {
   color: #0065fc;
@@ -562,6 +568,7 @@ i {
   margin-top: 8px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
 .hotel_le_soleil_du_matin p {
   margin-left: auto;
@@ -600,6 +607,7 @@ i {
   margin-top: 8px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
 .au_coeur_chambres_hotes p {
   margin-left: 47%;
@@ -638,6 +646,7 @@ i {
   margin-top: 8px;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
+  object-fit: cover;
 }
 .hotel_tout_bleu_et_blanc p {
   margin-left: 47%;
@@ -686,6 +695,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .vieux_port h3 {
   font-family: "Raleway", sans-serif;
@@ -712,6 +722,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .fort_de_pomegues h3 {
   font-family: "Raleway", sans-serif;
@@ -739,6 +750,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .iles_de_frioul h3 {
   font-family: "Raleway", sans-serif;
@@ -769,6 +781,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .parc_national_des_calanques h3 {
   font-family: "Raleway", sans-serif;
@@ -795,6 +808,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .notre_dame_de_la_garde h3 {
   font-family: "Raleway", sans-serif;
@@ -822,6 +836,7 @@ i {
   margin-left: 1%;
   border-top-left-radius: 10%;
   border-top-right-radius: 10%;
+  object-fit: cover;
 }
 .parc_longchamp h3 {
   font-family: "Raleway", sans-serif;
