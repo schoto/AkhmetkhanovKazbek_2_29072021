@@ -16,6 +16,9 @@
   #activites_marseille {
     flex-flow: column;
   }
+  .menu{
+    position: relative; right:10%;
+  }
 }
 /* HEADER */
 .menu {
@@ -275,6 +278,21 @@ i {
   margin-right: 1%;
   justify-content: start;
   margin-bottom: 5%;
+}
+@media all and (max-width: 1024px){
+  .rectangle_container{
+    width: 100%;
+  }
+  .container_for_square_and_rectangle_boxes{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .les_plus_populaires{
+    font-size: 200%;
+  }
+  .auberge_cannebiere{
+    display: flex;
+  }
 }
 .les_plus_populaires {
   /*text "Les plus populaires" in container*/
