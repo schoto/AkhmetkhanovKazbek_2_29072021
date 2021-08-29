@@ -288,10 +288,11 @@ i {
     flex-direction: column-reverse;
   }
   .les_plus_populaires{
-    font-size: 200%;
+    font-size: 150%;
   }
-  .auberge_cannebiere{
+  .hotel_le_soleil_du_matin{
     display: flex;
+    
   }
 }
 .les_plus_populaires {
@@ -706,10 +707,11 @@ i {
   height: 500px;
   background-color: rgb(255, 255, 255);
   margin: auto;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .vieux_port {
-  width: 22%;
+  display: flex;
+  width: 70%;
   height: 100%;
   border-radius: 10%;
   margin-left: 2%;
@@ -721,7 +723,7 @@ i {
 }
 .vieux_port img {
   display: flex;
-  width: 100%;
+  width: 99%;
   height: 85%;
   margin-top: 1%;
   margin-left: 1%;
@@ -729,19 +731,21 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.vieux_port h3 {
+.vieux_port h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  margin-left: 8%;
-  display: block;
+  display: flex;
   color: #000000;
+  align-self: flex-end;
+  margin-left: -95%;
 }
 .fort_de_pomegues {
-  width: 100%;
+  width: 300px;
   height: 45%;
   border-radius: 10%;
   background: white;
   box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+  margin-left: -10%;
 }
 .fort_de_pomegues:hover {
   transform: scale(1.1);
@@ -756,12 +760,12 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.fort_de_pomegues h3 {
+.fort_de_pomegues h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
   margin-top: 2%;
-  display: block;
+  display: flex;
   color: #000000;
 }
 .iles_de_frioul {
@@ -771,6 +775,7 @@ i {
   border-radius: 10%;
   background: white;
   box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+  margin-left: -10%;
 }
 .iles_de_frioul:hover {
   transform: scale(1.1);
@@ -785,7 +790,7 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.iles_de_frioul h3 {
+.iles_de_frioul h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
@@ -793,16 +798,14 @@ i {
   display: block;
   color: #000000;
 }
-.activites_deux_et_trois {
-  margin-left: 50px;
-}
 .parc_national_des_calanques {
-  width: 22%;
+  width: 70%;
   height: 100%;
   border-radius: 10%;
   margin-left: 2%;
   background: white;
   box-shadow: 0px 3px 3px 0px rgb(209 208 208);
+  margin-left: 17%;
 }
 .parc_national_des_calanques:hover {
   transform: scale(1.1);
@@ -817,7 +820,7 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.parc_national_des_calanques h3 {
+.parc_national_des_calanques h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
@@ -825,7 +828,7 @@ i {
   color: #000000;
 }
 .notre_dame_de_la_garde {
-  width: 100%;
+  width: 300px;
   height: 45%;
   margin-top: 1%;
   border-radius: 10%;
@@ -845,7 +848,7 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.notre_dame_de_la_garde h3 {
+.notre_dame_de_la_garde h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
@@ -874,7 +877,7 @@ i {
   border-top-right-radius: 10%;
   object-fit: cover;
 }
-.parc_longchamp h3 {
+.parc_longchamp h4 {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   margin-left: 8%;
@@ -897,11 +900,15 @@ footer {
   margin-bottom: 1%;
   justify-content: space-evenly;
 }
+.pied_de_page a{
+  color: #000000;
+}
 .liste_a_propos {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
   margin-top: 5px;
 }
+
 .liste_nos_hebergements {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
