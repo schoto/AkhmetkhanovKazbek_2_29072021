@@ -279,9 +279,12 @@ i {
   justify-content: start;
   margin-bottom: 5%;
 }
+/*MEDIA QUERIES FOR LES PLUS POPULAIRES*/
 @media all and (max-width: 1024px){
   .rectangle_container{
     width: 100%;
+    align-items: center;
+    display: flex;
   }
   .container_for_square_and_rectangle_boxes{
     display: flex;
@@ -289,10 +292,26 @@ i {
   }
   .les_plus_populaires{
     font-size: 150%;
+    align-self:flex-start;
   }
   .hotel_le_soleil_du_matin{
     display: flex;
-    
+    position: absolute;
+    top: 85%;
+  }
+  .au_coeur_chambres_hotes{
+    display: flex;
+    position: absolute;
+    top: 100%;
+  }
+  .hotel_tout_bleu_et_blanc{
+    display: flex;
+    position: absolute;
+    top: 120%;
+  }
+  .rectangle_container{
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
 .les_plus_populaires {
