@@ -21,7 +21,6 @@
   }
   .champ_recherche{
     display: flex;
-    position: relative;
     top: 1px;
     font-size: medium;
     padding: 1px 70px;
@@ -293,8 +292,6 @@ i {
   border-radius: 20px 20px 20px 20px;
   float: right;
   margin-right: 1%;
-  justify-content: start;
-  margin-bottom: 5%;
 }
 /*MEDIA QUERIES FOR LES PLUS POPULAIRES*/
 @media all and (max-width: 1024px){
@@ -339,6 +336,7 @@ i {
   font-weight: bold;
   color: #000000;
   margin-left: 7%;
+  margin-top: 1%;
 }
 /*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
@@ -612,124 +610,123 @@ i {
 /*LES PLUS POPULAIRES*/
 /*HOTEL LE SOLEIL DU MATIN*/
 .hotel_le_soleil_du_matin {
-  width: 35%;
+  margin-top: 18%;
+  width: 550px;
   height: 22%;
   display: flex;
+  position: relative;
+  right: 23%;
   font-family: "Raleway", sans-serif;
-  font-size: 100%;
   background-color: white;
   border-radius: 20px;
-  position: absolute;
-  margin-top: 6%;
-  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .hotel_le_soleil_du_matin:hover {
   transform: scale(1.1);
 }
 .image_hotel_le_soleil_du_matin {
+  width: 50%;
   height: 90%;
-  width: 40%;
-  position: absolute;
-  margin-left: 2%;
-  margin-top: 8px;
+  margin:auto;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
+  position: relative;
+  right: 28%;
 }
 .hotel_le_soleil_du_matin p {
-  margin-left: auto;
-  margin-top: 5%;
+  margin:auto;
   color: #000000;
+  position: relative;
+  left: 55%;
 }
 .note_etoile_hotel_le_soleil_du_matin {
   color: #0065fc;
   display: flex;
   list-style-type: none;
-  margin-top: 25%;
+  margin-top: 23%;
   position: relative;
-  right: 40%;
+  right: 32%;
 }
 /*AU COEUR DE L'EAU CHAMBRES D'HOTES*/
 .au_coeur_chambres_hotes {
-  width: 35%;
+  margin-top: 55%;
+  width: 550px;
   height: 22%;
   display: flex;
+  position: relative;
+  left: -123%;
   font-family: "Raleway", sans-serif;
-  font-size: 100%;
   background-color: white;
   border-radius: 20px;
-  position: absolute;
-  margin-top: 18%;
-  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .au_coeur_chambres_hotes:hover {
   transform: scale(1.1);
 }
 .image_au_coeur_chambres_hotes {
+  width: 50%;
   height: 90%;
-  width: 40%;
-  position: absolute;
-  margin-left: 2%;
-  margin-top: 8px;
+  margin:auto;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
+  position: relative;
+  right: 26%;
 }
 .au_coeur_chambres_hotes p {
-  margin-left: 47%;
-  margin-top: 5%;
+  margin:auto;
   color: #000000;
-
+  position: relative;
+  left: 55%;
 }
 .note_etoile_au_coeur_chambres_hotes {
   color: #0065fc;
   display: flex;
   list-style-type: none;
-  margin-top: 25%;
+  margin-top: 23%;
   position: relative;
-  right: 35%;
+  right: 32%;
 }
 /*HOTEL TOUT BLEU ET BLANC*/
 .hotel_tout_bleu_et_blanc {
-  width: 35%;
+  margin-top: 90%;
+  width: 550px;
   height: 22%;
   display: flex;
+  position: relative;
+  left: -223%;
   font-family: "Raleway", sans-serif;
-  font-size: 100%;
   background-color: white;
   border-radius: 20px;
-  position: absolute;
-  margin-top: 30%;
-  margin-left: -15%;
   box-shadow: 0px 0px 10px 10px #818181;
 }
 .hotel_tout_bleu_et_blanc:hover {
   transform: scale(1.1);
 }
 .image_hotel_tout_bleu_et_blanc {
+  width: 50%;
   height: 90%;
-  width: 40%;
-  position: absolute;
-  margin-left: 2%;
-  margin-top: 8px;
+  margin:auto;
   border-bottom-left-radius: 20px;
   border-top-left-radius: 20px;
   object-fit: cover;
+  position: relative;
+  right: 28%;
 }
 .hotel_tout_bleu_et_blanc p {
-  margin-left: 47%;
-  margin-top: 5%;
+  margin:auto;
   color: #000000;
+  position: relative;
+  left: 55%;
 }
 .note_etoile_hotel_tout_bleu_et_blanc {
   color: #0065fc;
   display: flex;
   list-style-type: none;
-  margin-top: 24%;
+  margin-top: 23%;
   position: relative;
-  right: 40%;
+  right: 32%;
 }
 .text_activities {
   font-family: "Raleway", sans-serif;
