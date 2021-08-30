@@ -51,6 +51,10 @@
   color: #0065fc; /* color of text */
   font-weight: bold;
 }
+.menu a:hover{
+  height: 3px;
+  background: #0065fc;
+}
 header img {
   /*logo*/
   margin-left: 2%;
