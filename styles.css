@@ -84,6 +84,7 @@ h5 {
   padding-bottom: 10px;
   border-top-left-radius: 20px 20px;
   border-bottom-left-radius: 20px 20px;
+  font-family: "Font Awesome 5 Free";
 }
 i {
   font-size: 30px; /* we can change the icon size with css*/
@@ -153,6 +154,7 @@ i {
   background-color: #deebff;
   position: relative;
   right: 15px;
+  font-family: "Font Awesome 5 Free";
 }
 .familial {
   margin-right: 60px;
@@ -179,6 +181,7 @@ i {
   background-color: #deebff;
   position: relative;
   right: 15px;
+  font-family: "Font Awesome 5 Free";
 }
 .romantique {
   margin-right: 60px;
@@ -205,6 +208,7 @@ i {
   background-color: #deebff;
   position: relative;
   right: 15px;
+  font-family: "Font Awesome 5 Free";
 }
 .animaux_autorises {
   margin-right: 60px;
@@ -231,6 +235,7 @@ i {
   background-color: #deebff;
   position: relative;
   right: 15px;
+  font-family: "Font Awesome 5 Free";
 }
 /*changing icon colors to blue*/
 .fa-money-bill-wave {
@@ -314,20 +319,13 @@ i {
   }
   .hotel_le_soleil_du_matin{
     display: flex;
-    position: relative;
-    top:800px;
+    padding: 7px 0 7px 7px;
   }
   .au_coeur_chambres_hotes{
-    width: 100%;
-    display: flex;
-    position: relative;
-    top:950px;
+
   }
   .hotel_tout_bleu_et_blanc{
-    display: flex;
-    width: 100%;
-    position: relative;
-    top:1100px;
+   
   }
   .rectangle_container{
     flex-direction: column;
