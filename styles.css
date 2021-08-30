@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap"); /* font imported from google fonts*/
 @media all and (max-width: 1024px) {
-  /*MEDIA QUERIES FOR FILTERS*/
+  /*MEDIA QUERIES FOR FILTERS and HEADER*/
   .filtres {
     flex-flow: column;
   }
@@ -13,11 +13,25 @@
   .romantique {
     margin-bottom: 5%;
   }
-  #activites_marseille {
-    flex-flow: column;
+  .menu li a{
+    margin-left: 10%;
   }
-  .menu{
-    position: relative; right:10%;
+  .bouton_recherche{
+    visibility: hidden;
+  }
+  .champ_recherche{
+    display: flex;
+    position: relative;
+    top: 1px;
+    font-size: medium;
+    padding: 1px 70px;
+  }
+  .sign_up{
+    position: relative;
+    top:-75px;
+  }
+  .trouvez_votre_hebergement h1{
+    font-size:larger;
   }
 }
 /* HEADER */
@@ -72,15 +86,15 @@ i {
   font-size: 30px; /* we can change the icon size with css*/
 }
 .champ_recherche {
+  display: flex;
   height: 42px;
   font-family: "Raleway", sans-serif;
   color: #000000;
-  width: 20%;
-  margin-right: -1%; /*I don't know if this is a good method, but found only this solution*/
+  width: 30%;
 }
 .bouton_recherche {
   /*research button*/
-  display: inline-block;
+  display: flex;
   height: 48px;
   font-size: 20px;
   line-height: 44px;
@@ -91,6 +105,9 @@ i {
   border-radius: 0px 10px 10px 0px;
   width: 120px;
   padding-left: 10px;
+  margin-left: 34%;
+  position: relative;
+  top: -48px;
 }
 .bouton_recherche:hover {
   transform: scale(1.1);
@@ -296,18 +313,20 @@ i {
   }
   .hotel_le_soleil_du_matin{
     display: flex;
-    position: absolute;
-    top: 85%;
+    position: relative;
+    top:800px;
   }
   .au_coeur_chambres_hotes{
+    width: 100%;
     display: flex;
-    position: absolute;
-    top: 100%;
+    position: relative;
+    top:950px;
   }
   .hotel_tout_bleu_et_blanc{
     display: flex;
-    position: absolute;
-    top: 120%;
+    width: 100%;
+    position: relative;
+    top:1100px;
   }
   .rectangle_container{
     flex-direction: column;
