@@ -320,7 +320,8 @@ i {
   }
   .hotel_le_soleil_du_matin{
     display: flex;
-    padding: 7px 0 7px 7px;
+    width: 100%;
+    margin-right: -50px;
   }
   .au_coeur_chambres_hotes{
 
