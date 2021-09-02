@@ -271,40 +271,40 @@ i {
   font-weight: bold;
 }
 .container_for_square_and_rectangle_boxes {
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .square_container {
   /* container with Hebergements a Marseille*/
   display: flex;
-  width: auto;
+  width: 45%;
   height: 690px;
   background-color: #ebebebe7;
   border-radius: 20px 20px 20px 20px;
   float: left;
   justify-content: center;
   flex-direction: column;
-  align-items: center;
-  padding: 0 20px;
-}
-.hebergements_marseille {
-  /*text "Hebergements a Marseille" in container*/
-  display: block;
-  width: 100%;
-  margin-left: 40px;
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  color: #000000;
+  padding-left: 2%;
+  padding-right: 6%;
 }
 .rectangle_container {
   /*container on the right side with "Les plus populaires" */
   display: block;
   height: 690px;
-  width: 40%;
+  width: 45%;
   background-color: #ebebebe7;
   border-radius: 20px 20px 20px 20px;
   float: right;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  margin-bottom: 15%;
+}
+.hebergements_marseille {
+  /*text "Hebergements a Marseille" in container*/
+  display:flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  color: #000000;
+  position: relative;
+  top: -6%;
 }
 /*MEDIA QUERIES FOR LES PLUS POPULAIRES*/
 @media all and (max-width: 1024px){
@@ -316,6 +316,7 @@ i {
   .container_for_square_and_rectangle_boxes{
     display: flex;
     flex-direction: column-reverse;
+    align-items:center;
   }
   .les_plus_populaires{
     font-size: 150%;
@@ -334,6 +335,14 @@ i {
     flex-direction: column;
     justify-content: space-between;
   }
+  .square_container{
+    width: fit-content;
+    height: 700px;
+  }
+  .hebergements_marseille{
+    position: relative;
+    top: -200px;
+  }
 }
 .les_plus_populaires {
   /*text "Les plus populaires" in container*/
@@ -343,20 +352,22 @@ i {
   margin-left: 7%;
   margin-top: 1%;
 }
+.auberge_port_mouettes{
+  display: flex;
+}
 /*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
-  width: auto;
+  width: 13%;
   height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 95%;
   background-color: white;
   border-radius: 20px;
-  position: relative;
+  position: absolute;
+  margin-top: 6%;
   box-shadow: 0px 0px 10px 10px #818181;
-
 }
-/*ZOOM HOVER EFFECT*/
 .auberge_cannebiere:hover {
   transform: scale(1.1);
 }
@@ -364,6 +375,10 @@ i {
   margin-top: 65%;
   margin-left: 10%;
   color: #000000;
+}
+.cannebiere_nuit{
+  margin-top: 60%;
+  margin-left: 5%;
 }
 .image_auberge_cannebiere {
   height: 50%;
@@ -375,16 +390,15 @@ i {
   border-top-right-radius: 20px;
   object-fit: cover;
 }
-/*changing specs of stars*/
 .note_etoile_auberge_cannebiere {
   color: #0065fc;
   display: inline-flex;
   margin-top: 85%;
-  margin-left: -100%;
+  margin-left: -90%;
   list-style-type: none;
 }
 .five_star_auberge_cannebiere {
-  /*had to change this one with its own code, because of the grey color*/
+  /*had to change this one with its own value, because of the grey color*/
   color: #a8a8a8;
 }
 /*HOTEL DU PORT*/
