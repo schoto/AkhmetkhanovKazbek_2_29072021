@@ -275,33 +275,36 @@ i {
 }
 .square_container {
   /* container with Hebergements a Marseille*/
-  display: grid;
-  margin-left: 1%;
-  width: 50%;
-  height: 20%;
+  display: flex;
+  width: auto;
+  height: 690px;
   background-color: #ebebebe7;
   border-radius: 20px 20px 20px 20px;
   float: left;
-  margin-bottom: 5%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
 }
 .hebergements_marseille {
   /*text "Hebergements a Marseille" in container*/
-  display: flex;
-  margin-left: 3%;
-  margin-top: 3%;
+  display: block;
+  width: 100%;
+  margin-left: 40px;
   font-family: "Raleway", sans-serif;
   font-weight: bold;
   color: #000000;
 }
 .rectangle_container {
   /*container on the right side with "Les plus populaires" */
-  display: flex;
+  display: block;
   height: 690px;
   width: 40%;
   background-color: #ebebebe7;
   border-radius: 20px 20px 20px 20px;
   float: right;
-  margin-right: 1%;
+  justify-content: center;
+  align-items: center;
 }
 /*MEDIA QUERIES FOR LES PLUS POPULAIRES*/
 @media all and (max-width: 1024px){
@@ -320,8 +323,6 @@ i {
   }
   .hotel_le_soleil_du_matin{
     display: flex;
-    width: 100%;
-    margin-right: -50px;
   }
   .au_coeur_chambres_hotes{
 
@@ -344,17 +345,16 @@ i {
 }
 /*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
-  width: 13%;
+  width: auto;
   height: 28%;
   display: flex;
   font-family: "Raleway", sans-serif;
   font-size: 95%;
   background-color: white;
   border-radius: 20px;
-  position: absolute;
-  margin-top: 6%;
-  margin-left: 1%;
+  position: relative;
   box-shadow: 0px 0px 10px 10px #818181;
+
 }
 /*ZOOM HOVER EFFECT*/
 .auberge_cannebiere:hover {
@@ -614,12 +614,12 @@ i {
 /*LES PLUS POPULAIRES*/
 /*HOTEL LE SOLEIL DU MATIN*/
 .hotel_le_soleil_du_matin {
-  margin-top: 18%;
-  width: 550px;
-  height: 22%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 25%;
   display: flex;
-  position: relative;
-  right: 23%;
   font-family: "Raleway", sans-serif;
   background-color: white;
   border-radius: 20px;
@@ -637,6 +637,7 @@ i {
   object-fit: cover;
   position: relative;
   right: 28%;
+  display: flex;
 }
 .hotel_le_soleil_du_matin p {
   margin:auto;
@@ -654,12 +655,12 @@ i {
 }
 /*AU COEUR DE L'EAU CHAMBRES D'HOTES*/
 .au_coeur_chambres_hotes {
-  margin-top: 55%;
-  width: 550px;
-  height: 22%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 25%;
   display: flex;
-  position: relative;
-  left: -123%;
   font-family: "Raleway", sans-serif;
   background-color: white;
   border-radius: 20px;
@@ -677,6 +678,7 @@ i {
   object-fit: cover;
   position: relative;
   right: 26%;
+  display: flex;
 }
 .au_coeur_chambres_hotes p {
   margin:auto;
@@ -694,12 +696,12 @@ i {
 }
 /*HOTEL TOUT BLEU ET BLANC*/
 .hotel_tout_bleu_et_blanc {
-  margin-top: 90%;
-  width: 550px;
-  height: 22%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 90%;
+  height: 25%;
   display: flex;
-  position: relative;
-  left: -223%;
   font-family: "Raleway", sans-serif;
   background-color: white;
   border-radius: 20px;
@@ -717,6 +719,7 @@ i {
   object-fit: cover;
   position: relative;
   right: 28%;
+  display: flex;
 }
 .hotel_tout_bleu_et_blanc p {
   margin:auto;
@@ -731,14 +734,6 @@ i {
   margin-top: 23%;
   position: relative;
   right: 32%;
-}
-.text_activities {
-  font-family: "Raleway", sans-serif;
-  font-weight: bold;
-  display: block;
-  padding: 2%;
-  position: relative;
-  right: 40%;
 }
 #activites_marseille {
   display: flex;
