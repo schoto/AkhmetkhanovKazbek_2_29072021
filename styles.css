@@ -354,6 +354,7 @@ i {
 }
 .auberge_port_mouettes{
   display: flex;
+  flex-direction: column;
 }
 /*AUBERGE CANNEBIERE*/
 .auberge_cannebiere {
